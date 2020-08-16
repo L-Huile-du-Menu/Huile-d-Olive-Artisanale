@@ -1,0 +1,366 @@
+body
+ {
+	padding-top: 0;
+	text-align: center;
+	background-color: #121212;
+	overflow-x:hidden;
+	margin-bottom: 126.18296529968454258675078864353%;
+ }
+
+#banniere
+ {
+ 	width: 100%;
+ 	box-shadow: 0.052vw 0.052vw 0.624vw black;
+ 	position: absolute;
+ 	top: 0%;
+ 	left: 0%;
+ }
+
+#logo
+ {
+ 	width: 13.144058885383806519453207150368%;
+ 	position: absolute;
+ 	top: 57.947368421052631578947368421053%;
+ 	left: 42.060988433228180862250262881178%;
+ }
+
+#sep
+ {
+ 	width: 94.63722397476340694006309148265%;
+ 	height: 1.0526315789473684210526315789474%;
+ 	background-color: #007000;
+ 	box-shadow: 0.052vw 0.052vw 0.624vw black;
+ 	position: absolute;
+ 	top: 76.315789473684210526315789473684%;
+ 	left: 2.6288117770767613038906414300736%;
+ }
+
+#fond{
+	width: 94.63722397476340694006309148265%;
+	height: 147.36842105263157894736842105263%;
+	background-color: #363636;
+	opacity: 0.75;
+	box-shadow: 0.052vw 0.052vw 0.624vw black;
+	position: absolute;
+	top: 91.578947368421052631578947368421%;
+	left: 2.6288117770767613038906414300736%;
+ }
+
+#img
+ {
+ 	width: 51.261829652996845425867507886435%;
+ 	box-shadow: 0.052vw 0.052vw 0.624vw black;
+ 	position: absolute;
+ 	top: 103.26315789473684210526315789474%;
+ 	left: 46.004206098843322818086225026288%;
+ }
+
+#carte
+ {
+ 	width: 16.824395373291272344900105152471%;
+ 	height: 47.368421052631578947368421052632%;
+ 	background-color: #007000;
+ 	box-shadow: 0.052vw 0.052vw 0.624vw black;
+ 	position: absolute;
+	top: 108.42105263157894736842105263158%;
+	left: 13.144058885383806519453207150368%;
+ }
+
+h1
+ {
+ 	font-family: lobster;
+ 	font-size : 1.3vw;
+    color: #fff;
+    position: absolute;
+ 	top: 107.36842105263157894736842105263%;
+ 	left: 13.669821240799158780231335436383%;
+ }
+
+#p1
+ {
+ 	font-family: lobster;
+ 	font-size: 1.2vw;
+ 	color: #fff;
+ 	position: absolute;
+ 	top: 116.84210526315789473684210526316%;
+ 	left: 13.93270241850683491062039957939%;
+ }
+
+#p2
+ {
+ 	font-family: lobster;
+ 	font-size: 1.2vw;
+ 	color: #fff;
+ 	position: absolute;
+ 	top: 130.52631578947368421052631578947%;
+ 	left: 13.93270241850683491062039957939%;
+ }
+
+#design
+{
+  width: 42.060988433228180862250262881178%;
+  height: 53.684210526315789473684210526316%;
+  margin: 0 auto;
+  background-color: #242424;
+  text-align: center;
+  align-content: center;
+  border-radius: 0.78vw;
+  box-shadow: 0.052vw 0.052vw 0.624vw black;
+  position: absolute;
+  top: 170.36842105263157894736842105263%;
+  left: 26.288117770767613038906414300736%;
+}
+
+#reservez
+{
+	font-family: lobster;
+ 	font-size: 1.3vw;
+ 	color: #fff;
+ 	position: absolute;
+    top: 216.68421052631578947368421052632%;
+    left: 27.076761303890641430073606729758%;
+}
+
+#img1{
+	width: 41.535226077812828601472134595163%;
+  	height: 46.736842105263157894736842105263%;
+	border-radius: 0.78vw;
+}
+
+#img2{
+	width: 41.535226077812828601472134595163%;
+  	height: 46.736842105263157894736842105263%;
+	border-radius: 0.78vw;
+}
+
+#img3{
+	width: 41.535226077812828601472134595163%;
+  	height: 46.736842105263157894736842105263%;
+	border-radius: 0.78vw;
+}
+
+.imgon{
+	position: absolute;
+	top: 171.42105263157894736842105263158%;
+	left: 26.550998948475289169295478443743%;
+}
+ 
+.imgoff{
+	position: absolute;
+	top: -211.52631578947368421052631578947%;
+	left: 26.550998948475289169295478443743%;
+}
+
+.point1{
+	width: 0.78864353312302839116719242902208%;
+	height: 1.5789473684210526315789473684211%;
+	background: none;
+	border: 0.208vw solid #007000;
+	border-radius: 0.78vw;
+	position: absolute;
+	top: 213.94736842105263157894736842105%;
+	left: 44.847528916929547844374342797056%;
+}
+
+.point2{
+	width: 0.78864353312302839116719242902208%;
+	height: 1.5789473684210526315789473684211%;
+	background: #fff;
+	border: 0.208vw solid #007000;
+	border-radius: 0.78vw;
+	position: absolute;
+	top: 213.94736842105263157894736842105%;
+	left: 46.950578338590956887486855941115%;
+}
+
+.point3{
+	width: 0.78864353312302839116719242902208%;
+	height: 1.5789473684210526315789473684211%;
+	background: none;
+	border: 0.208vw solid #007000;
+	border-radius: 0.78vw;
+	position: absolute;
+	top: 213.94736842105263157894736842105%;
+	left: 49.053627760252365930599369085174%;
+}
+
+.avant{
+	outline: none;
+	border: none;
+	border-radius: 0px 0.78vw 0.78vw 0px;
+	background-color: #242424;
+	color: #fff;
+	cursor: pointer;
+	padding: 0.78vw;
+	font-size: 1.56vw;
+}
+
+.avant:hover{
+	background-color: #181818;
+}
+
+.avanton{
+	position: absolute;
+	top: 192.47368421052631578947368421053%;
+	left: 26.550998948475289169295478443743%;
+}
+
+.avantoff{
+	position: absolute;
+	top: -211.52631578947368421052631578947%;
+	left: 26.550998948475289169295478443743%;
+}
+
+.apres{
+	outline: none;
+	border: none;
+	border-radius: 0.78vw 0px 0px 0.78vw;
+	background-color: #242424;
+	color: #fff;
+	cursor: pointer;
+	padding: 0.78vw;
+	font-size: 1.56vw;
+}
+
+.apres:hover{
+	background-color: #181818;
+}
+
+.apreson{
+	position: absolute;
+	top: 192.47368421052631578947368421053%;
+	left: 65.662565720294426919032597266036%;
+}
+
+.apresoff{
+	position: absolute;
+	top: -211.52631578947368421052631578947%;
+	left: 65.662565720294426919032597266036%;
+}
+
+#bouton1{
+	padding: 0.26vw;
+	font-size: 1.1vw;
+	font-family: lobster;
+	color: #fff;
+	background-color: #007000;
+	border: none;
+	border-radius: 0.104vw;
+	box-shadow: 0.052vw 0.052vw 0.624vw black;
+	outline: none;
+	position: absolute;
+	top: 219.31578947368421052631578947368%;
+	left: 60.462670872765509989484752891693%;
+}
+
+#bouton1:hover{
+	background-color: #004B00;
+}
+
+#modal{
+	width: 16.824395373291272344900105152471%;
+ 	height: 47.368421052631578947368421052632%;
+ 	box-shadow: 0.052vw 0.052vw 0.624vw black;
+	background-color: #007000;
+}
+
+#infos{
+	font-family: lobster;
+	font-size: 1.1vw;
+	color: #fff;
+}
+
+#bouton2{
+	padding: 0.26vw;
+	font-size: 1.1vw;
+	font-family: lobster;
+	color: #fff;
+	background-color: #007000;
+	border: none;
+	border-radius: 0.104vw;
+	box-shadow: 0.052vw 0.052vw 0.624vw black;
+	outline: none;
+	position: absolute;
+	top: 66.666666666666666666666666666667%;
+	left: 15.625%;
+}
+
+#bouton2:hover{
+	background-color: #004B00;  
+}
+
+#bouton3{
+	padding: 0.26vw;
+	font-size: 1.1vw;
+	font-family: lobster;
+	color: #fff;
+	background-color:  #242424;
+	border: none;
+	border-radius: 0.104vw;
+	box-shadow: 0.052vw 0.052vw 0.624vw black;
+	outline: none;
+	position: absolute;
+	top: 80%;
+	left: 37.5%;
+}
+
+#bouton3:hover{
+	background-color: #181818; 
+}
+
+#modal2{
+	width: 16.824395373291272344900105152471%;
+ 	height: 47.368421052631578947368421052632%;
+ 	box-shadow: 0.052vw 0.052vw 0.624vw black;
+	background-color: #007000;
+}
+
+#bouton4{
+	padding: 0.26vw;
+	font-size: 1.1vw;
+	font-family: lobster;
+	color: #fff;
+	background-color: #007000;
+	border: none;
+	border-radius: 0.104vw;
+	box-shadow: 0.052vw 0.052vw 0.624vw black;
+	outline: none;
+	position: absolute;
+	top: 44.444444444444444444444444444444%;
+	left: 26.5625%;
+}
+
+#bouton4:hover{
+	background-color: #004B00;
+}
+
+#flou{
+	width: 100%;
+	height: 256.2%;
+	background-color: #fff;
+	opacity: 0.25;
+}
+
+.flouon{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+.flouoff{
+	position: absolute;
+	top: -4000px;
+	left: 0%;
+}
+
+.modalon{
+	position: absolute;
+	top: 171.10526315789473684210526315789%;
+	left: 39.432176656151419558359621451104%;
+}
+
+.modaloff{
+	position: absolute;
+	top: -210%;
+	left: 39.432176656151419558359621451104%;
+}
