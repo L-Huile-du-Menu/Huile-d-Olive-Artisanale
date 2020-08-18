@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>L'Huile du Menu</title>
+        <link rel="icon" type="image/png" href="img/logo.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+    		<img id="banniere" src="img/img1-1.jpg">
+
+    		<img id="logo" src="img/logo.png">
+        
+            <div id="sep"></div>
+
+            <div id="fond"></div>
+
+    		<img id="img" src="img/img2-1.jpg">
+		
+    	    <div id="carte"></div>
+
+            <h1>Vraiment sans traitements ?</h1>
+		
+    		<p id="p1">L'huile provient exclusivement<br>de notre propre récolte,<br>fruit d'une production<br>sans aucun traitements.</p>
+    		<p id="p2">Nous nous assurons que notre<br>huile ne soit pas mélangée avec<br>une autre traitée lors du passage<br>au moulin, pour se faire nous<br>demandons à passer en premier.</p>
+        
+            <div id="design"></div>
+
+            <img class="imgoff" id="img1" src="1.jpg">
+            <img class="imgon" id="img2" src="2.jpg">
+            <img class="imgoff" id="img3" src="3.jpg">
+
+            <div class="point1" id="point1" onclick="turnLeft2()"></div>
+            <div class="point2" id="point2" onclick="turnRight1()"></div>
+            <div class="point3" id="point3" onclick="turnRight2()"></div>
+            
+            <button class="avant avantoff" id="left1" onclick="turnLeft1()"><</button>
+            <button class="avant avanton" id="left2" onclick="turnLeft2()"><</button>
+            <button class="avant avantoff" id="left3" onclick="turnRight2()"><</button>
+            <button class="apres apresoff" id="right1" onclick="turnRight1()">></button>
+            <button class="apres apreson" id="right2" onclick="turnRight2()">></button>
+            <button class="apres apresoff" id="right3" onclick="turnLeft2()">></button>
+
+            <p id="reservez">Réservation <button id="bouton5" onclick="openModal3()">i</button> :</p>
+
+            <button id="bouton1" onclick="openModal()">Réserver</button>   
+
+            <div class="flouoff" id="flou"></div>
+
+            <div class="modaloff" id="modal3">
+
+                <p id="infos">Nous faisons de notre mieux<br>pour respecter la quantitée de<br>bouteille que vous désirez.<br><br>Vous ne paierez uniquement<br>le nombre de bouteille que nous<br>pourrons vous fournir.<br>------------------------------<br>Tarifs :<br>15€ la bouteille de 500ml</p>
+
+                <button id="bouton6" onclick="closeModal3()" >Retour</button>
+
+            </div>    
+
+            <div class="modaloff" id="modal">
+                
+                <p id="infos">Pour réserver, contactez nous<br>par e-mail en renseignant<br>ces informations :<br>------------------------------<br>-Nom prénom<br>-Quantitée de bouteille souhaitées<br>------------------------------<br>Nous ferons de notre mieux<br>pour satisfaire tout nos clients.<p>
+
+                <button id="bouton2" onclick="openModal2()">J'accepte les conditions</button>
+                <button id="bouton3" onclick="closeModal()" >Annuler</button>
+
+            </div>
+
+            <div class="modaloff" id="modal2">
+                <a href="mailto:huiledumenu@gmail.com"><button id="bouton4" onclick="closeModal2()" >Nous Contacter</button></a>
+                <button id="bouton3" onclick="closeModal2()" >Annuler</button>
+            </div>
+
+        <script src="app.js"></script>
+
+    </body>
+</html>
