@@ -2,7 +2,7 @@ body
  {
 	padding-top: 0;
 	text-align: center;
-	background-color: #121212;
+	background-color: #fff;
 	overflow-x: hidden;
 	margin-bottom: 126.18296529968454258675078864353%;
  }
@@ -38,7 +38,7 @@ body
 #fond{
 	width: 94.63722397476340694006309148265%;
 	height: 147.36842105263157894736842105263%;
-	background-color: #363636;
+	background-color: #bdc3c7;
 	opacity: 0.75;
 	box-shadow: 0.052vw 0.052vw 0.624vw black;
 	position: absolute;
@@ -55,45 +55,16 @@ body
  	left: 46.004206098843322818086225026288%;
  }
 
-#carte
- {
- 	width: 18.224395373291272344900105152471%;
- 	height: 48.368421052631578947368421052632%;
- 	background-color: #007000;
- 	box-shadow: 0.052vw 0.052vw 0.624vw black;
- 	position: absolute;
-	top: 107.42105263157894736842105263158%;
-	left: 13.144058885383806519453207150368%;
- }
-
 h1
  {
  	font-family: lobster;
  	font-size : 1.4vw;
     color: #fff;
+    background-color: #007000;
+    box-shadow: 0.052vw 0.052vw 0.624vw black;
     position: absolute;
  	top: 107.36842105263157894736842105263%;
  	left: 13.669821240799158780231335436383%;
- }
-
-#p1
- {
- 	font-family: lobster;
- 	font-size: 1.3vw;
- 	color: #fff;
- 	position: absolute;
- 	top: 116.84210526315789473684210526316%;
- 	left: 13.93270241850683491062039957939%;
- }
-
-#p2
- {
- 	font-family: lobster;
- 	font-size: 1.3vw;
- 	color: #fff;
- 	position: absolute;
- 	top: 130.52631578947368421052631578947%;
- 	left: 13.93270241850683491062039957939%;
  }
 
 #design
@@ -101,7 +72,7 @@ h1
   width: 42.060988433228180862250262881178%;
   height: 53.684210526315789473684210526316%;
   margin: 0 auto;
-  background-color: #242424;
+  background-color: #ecf0f1;
   text-align: center;
   align-content: center;
   border-radius: 0.78vw;
@@ -115,7 +86,7 @@ h1
 {
 	font-family: lobster;
  	font-size: 1.3vw;
- 	color: #fff;
+ 	color: #000;
  	position: absolute;
     top: 216.38421052631578947368421052632%;
     left: 27.076761303890641430073606729758%;
@@ -165,7 +136,7 @@ h1
 .point2{
 	width: 0.78864353312302839116719242902208%;
 	height: 1.5789473684210526315789473684211%;
-	background: #fff;
+	background: #00ba00;
 	border: 0.208vw solid #007000;
 	border-radius: 0.78vw;
 	position: absolute;
@@ -188,15 +159,15 @@ h1
 	outline: none;
 	border: none;
 	border-radius: 0px 0.78vw 0.78vw 0px;
-	background-color: #242424;
-	color: #fff;
+	background-color: #ecf0f1;
+	color: #000;
 	cursor: pointer;
 	padding: 0.78vw;
 	font-size: 1.56vw;
 }
 
 .avant:hover{
-	background-color: #181818;
+	background-color: #f1f2f6;
 }
 
 .avanton{
@@ -215,15 +186,15 @@ h1
 	outline: none;
 	border: none;
 	border-radius: 0.78vw 0px 0px 0.78vw;
-	background-color: #242424;
-	color: #fff;
+	background-color: #ecf0f1;
+	color: #000;
 	cursor: pointer;
 	padding: 0.78vw;
 	font-size: 1.56vw;
 }
 
 .apres:hover{
-	background-color: #181818;
+	background-color: #f1f2f6;
 }
 
 .apreson{
@@ -284,7 +255,7 @@ h1
 	cursor: pointer;
 	position: absolute;
 	top: 66.666666666666666666666666666667%;
-	left: 14%;
+	left: 15%;
 }
 
 #bouton2:hover{
@@ -295,20 +266,20 @@ h1
 	padding: 0.26vw;
 	font-size: 1.3vw;
 	font-family: lobster;
-	color: #fff;
-	background-color:  #242424;
+	color: #000;
+	background-color:  #fff;
 	border: none;
 	border-radius: 0.104vw;
-	box-shadow: 0.052vw 0.052vw 0.624vw black;
+	box-shadow: 0.052vw 0.052vw 0.5vw black;
 	outline: none;
 	cursor: pointer;
 	position: absolute;
 	top: 80%;
-	left: 40%;
+	left: 37%;
 }
 
 #bouton3:hover{
-	background-color: #181818; 
+	background-color: #d6d6d6; 
 }
 
 #modal2{
@@ -338,7 +309,7 @@ h1
 	cursor: pointer;
 	position: absolute;
 	top: 44.444444444444444444444444444444%;
-	left: 25%;
+	left: 26%;
 }
 
 #bouton4:hover{
@@ -368,11 +339,11 @@ h1
 	padding: 0.26vw;
 	font-size: 1.3vw;
 	font-family: lobster;
-	color: #fff;
-	background-color:  #242424;
+	color: #000;
+	background-color:  #fff;
 	border: none;
 	border-radius: 0.104vw;
-	box-shadow: 0.052vw 0.052vw 0.624vw black;
+	box-shadow: 0.052vw 0.052vw 0.5vw black;
 	outline: none;
 	cursor: pointer;
 	position: absolute;
@@ -381,15 +352,15 @@ h1
 }
 
 #bouton6:hover{
-	background-color: #181818; 
+	background-color: #d6d6d6; 
 }
 
 
 #flou{
 	width: 100%;
 	height: 256.2%;
-	background-color: #fff;
-	opacity: 0.25;
+	background-color: #000;
+	opacity: 0.40;
 }
 
 .flouon{

@@ -16,7 +16,7 @@ function turnRight1() {
 	document.getElementById("right2").classList.remove("apresoff");
 
 	document.getElementById("point1").style.background = "none";
-	document.getElementById("point2").style.background = "#c1c1c1";
+	document.getElementById("point2").style.background = "#00ba00";
 	document.getElementById("point3").style.background = "none";
 
 	mover = 2;
@@ -48,7 +48,7 @@ function turnRight2() {
 
 	document.getElementById("point1").style.background = "none";
 	document.getElementById("point2").style.background = "none";
-	document.getElementById("point3").style.background = "#c1c1c1";
+	document.getElementById("point3").style.background = "#00ba00";
 
 	mover = 3;
 
@@ -78,7 +78,7 @@ function turnLeft1() {
 	document.getElementById("right2").classList.remove("apresoff");
 
 	document.getElementById("point1").style.background = "none";
-	document.getElementById("point2").style.background = "#c1c1c1";
+	document.getElementById("point2").style.background = "#00ba00";
 	document.getElementById("point3").style.background = "none";
 	
 	mover = 2;
@@ -108,7 +108,7 @@ function turnLeft2() {
 	document.getElementById("left3").classList.add("avanton");
 	document.getElementById("left3").classList.remove("avantoff");
 
-	document.getElementById("point1").style.background = "#c1c1c1";
+	document.getElementById("point1").style.background = "#00ba00";
 	document.getElementById("point2").style.background = "none";
 	document.getElementById("point3").style.background = "none";
 	
@@ -154,6 +154,8 @@ function openModal2() {
 }
 
 function closeModal2() {
+	document.getElementById("modal").classList.add("modalon");
+	document.getElementById("modal").classList.remove("modaloff");
 	document.getElementById("modal2").classList.add("modaloff");
 	document.getElementById("modal2").classList.remove("modalon");
 	document.getElementById("flou").classList.add("flouoff");

@@ -2,25 +2,25 @@ body
  {
 	padding-top: 0;
 	text-align: center;
-	background-color: #121212;
+	background-color: #fff;
 	overflow-x: hidden;
 	margin-bottom: 230.15789473684210526315789473684%;
  }
 
 #banniere
  {
- 	width: 100%;
+ 	width: 150%;
  	box-shadow: 0.052vw 0.052vw 0.624vw black;
  	position: absolute;
  	top: 0%;
- 	left: 0%;
+ 	left: -25%;
  }
 
 #logo
  {
  	width: 25.510204081632653061224489795918%;
  	position: absolute;
- 	top: 19.091954022988505747126436781609%;
+ 	top: 24.091954022988505747126436781609%;
  	left: 36.734693877551020408163265306122%;
  }
 
@@ -31,18 +31,18 @@ body
  	background-color: #007000;
  	box-shadow: 0.052vw 0.052vw 0.624vw black;
  	position: absolute;
- 	top: 28.862068965517241379310344827586%;
+ 	top: 31.862068965517241379310344827586%;
  	left: 4.0816326530612244897959183673469%;
  }
 
 #fond{
 	width: 91.836734693877551020408163265306%;
 	height: 103.44827586206896551724137931034%;
-	background-color: #363636;
+	background-color: #bdc3c7;
 	opacity: 0.75;
 	box-shadow: 0.052vw 0.052vw 0.624vw black;
 	position: absolute;
-	top: 33.459770114942528735632183908046%;
+	top: 38.459770114942528735632183908046%;
 	left: 4.0816326530612244897959183673469%;
  }
 
@@ -51,45 +51,16 @@ body
  	width: 0px;
  }
 
-#carte
- {
- 	width: 69.224489795918367346938775510204%;
- 	height: 47.126436781609195402298850574713%;
- 	background-color: #007000;
- 	box-shadow: 0.052vw 0.052vw 0.624vw black;
- 	position: absolute;
-	top: 39.781609195402298850574712643678%;
-	left: 14.387755102040816326530612244898%;
- }
-
 h1
  {
  	font-family: lobster;
  	font-size : 4.5vw;
     color: #fff;
+    background-color: #007000;
+    box-shadow: 0.052vw 0.052vw 0.624vw black;
     position: absolute;
- 	top: 42.080459770114942528735632183908%;
- 	left: 20.469387755102040816326530612245%;
- }
-
-#p1
- {
- 	font-family: lobster;
- 	font-size: 4.4vw;
- 	color: #fff;
- 	position: absolute;
- 	top: 49.264367816091954022988505747126%;
- 	left: 19.959183673469387755102040816327%;
- }
-
-#p2
- {
- 	font-family: lobster;
- 	font-size: 4.4vw;
- 	color: #fff;
- 	position: absolute;
- 	top: 65.068965517241379310344827586207%;
- 	left: 16.548979591836734693877551020408%;
+ 	top: 47.080459770114942528735632183908%;
+ 	left: 19.469387755102040816326530612245%;
  }
 
 #design
@@ -97,13 +68,13 @@ h1
   width: 79.591836734693877551020408163265%;
   height: 31.609195402298850574712643678161%;
   margin: 0 auto;
-  background-color: #242424;
+  background-color: #ecf0f1;
   text-align: center;
   align-content: center;
   border-radius: 1.5vw;
   box-shadow: 0.052vw 0.052vw 0.624vw black;
   position: absolute;
-  top: 94.954022988505747126436781609195%;
+  top: 99.954022988505747126436781609195%;
   left: 10.204081632653061224489795918367%;
 }
 
@@ -111,9 +82,9 @@ h1
 {
 	font-family: lobster;
  	font-size: 4.4vw;
- 	color: #fff;
+ 	color: #000;
  	position: absolute;
-    top: 118.47931034482758620689655172414%;
+    top: 123.47931034482758620689655172414%;
     left: 12.244897959183673469387755102041%;
 }
 
@@ -137,7 +108,7 @@ h1
 
 .imgon{
 	position: absolute;
-	top: 95.528735632183908045977011494253%;
+	top: 100.528735632183908045977011494253%;
 	left: 11.224489795918367346938775510204%;
 }
  
@@ -153,18 +124,18 @@ h1
 	border: 0.75vw solid #007000;
 	border-radius: 3vw;
 	position: absolute;
-	top: 117.36781609195402298850574712644%;
+	top: 122.36781609195402298850574712644%;
 	left: 40.816326530612244897959183673469%;
 }
 
 .point2{
 	width: 2.5510204081632653061224489795918%;
 	height: 1.4367816091954022988505747126437%;
-	background: #fff;
+	background: #00ba00;
 	border: 0.75vw solid #007000;
 	border-radius: 3vw;
 	position: absolute;
-	top: 117.36781609195402298850574712644%;
+	top: 122.36781609195402298850574712644%;
 	left: 48.979591836734693877551020408163%;
 }
 
@@ -175,7 +146,7 @@ h1
 	border: 0.75vw solid #007000;
 	border-radius: 3vw;
 	position: absolute;
-	top: 117.36781609195402298850574712644%;
+	top: 122.36781609195402298850574712644%;
 	left: 56.12244897959183673469387755102%;
 }
 
@@ -183,20 +154,20 @@ h1
 	outline: none;
 	border: none;
 	border-radius: 0px 2vw 2vw 0px;
-	background-color: #242424;
-	color: #fff;
+	background-color: #ecf0f1;
+	color: #000;
 	cursor: pointer;
 	padding: 3vw;
 	font-size: 4.4vw;
 }
 
 .avant:hover{
-	background-color: #181818;
+	background-color: #f1f2f6;
 }
 
 .avanton{
 	position: absolute;
-	top: 105.0114942528735632183908045977%;
+	top: 110.0114942528735632183908045977%;
 	left: 11.12244897959183673469387755102%;
 }
 
@@ -209,20 +180,20 @@ h1
 	outline: none;
 	border: none;
 	border-radius: 2vw 0px 0px 2vw;
-	background-color: #242424;
-	color: #fff;
+	background-color: #ecf0f1;
+	color: #000;
 	cursor: pointer;
 	padding: 3vw;
 	font-size: 4.4vw;
 }
 
 .apres:hover{
-	background-color: #181818;
+	background-color: #f1f2f6;
 }
 
 .apreson{
 	position: absolute;
-	top: 105.0114942528735632183908045977%;
+	top: 110.0114942528735632183908045977%;
 	left: 80.506122448979591836734693877551%;
 }
 
@@ -242,7 +213,7 @@ h1
 	box-shadow: 0.052vw 0.052vw 0.624vw black;
 	outline: none;
 	position: absolute;
-	top: 121.1655172413793103448275862069%;
+	top: 126.1655172413793103448275862069%;
 	left: 66.326530612244897959183673469388%;
 }
 
@@ -275,7 +246,7 @@ h1
 	outline: none;
 	position: absolute;
 	top: 66.666666666666666666666666666667%;
-	left: 14%;
+	left: 19%;
 }
 
 #bouton2:hover{
@@ -286,23 +257,23 @@ h1
 	padding: 1vw;
 	font-size: 4.4vw;
 	font-family: lobster;
-	color: #fff;
-	background-color: #242424;
+	color: #000;
+	background-color: #fff;
 	border: none;
 	border-radius: 0.5vw;
-	box-shadow: 0.052vw 0.052vw 0.624vw black;
+	box-shadow: 0.052vw 0.052vw 0.5vw black;
 	outline: none;
 	position: absolute;
 	top: 80%;
-	left: 35.5%;
+	left: 38%;
 }
 
 #bouton3:hover{
-	background-color: #181818; 
+	background-color: #d6d6d6; 
 }
 
 #modal2{
-	width: 61.224489795918367346938775510204%;
+	width: 69.224489795918367346938775510204%;
  	height: 50.126436781609195402298850574713%;
  	box-shadow: 0.052vw 0.052vw 0.624vw black;
 	background-color: #007000;
@@ -327,7 +298,7 @@ h1
 	outline: none;
 	position: absolute;
 	top: 44.444444444444444444444444444444%;
-	left: 25%;
+	left: 28%;
 }
 
 #bouton4:hover{
@@ -356,27 +327,27 @@ h1
 	padding: 1vw;
 	font-size: 4.4vw;
 	font-family: lobster;
-	color: #fff;
-	background-color: #242424;
+	color: #000;
+	background-color: #fff;
 	border: none;
 	border-radius: 0.5vw;
-	box-shadow: 0.052vw 0.052vw 0.624vw black;
+	box-shadow: 0.052vw 0.052vw 0.5vw black;
 	outline: none;
 	position: absolute;
 	top: 75%;
-	left: 37.5%;
+	left: 39.5%;
 }
 
 #bouton6:hover{
-	background-color: #181818; 
+	background-color: #d6d6d6; 
 }
 
 
 #flou{
 	width: 100%;
 	height: 148.67816091954022988505747126437%;
-	background-color: #fff;
-	opacity: 0.25;
+	background-color: #000;
+	opacity: 0.75;
 }
 
 .flouon{
@@ -392,8 +363,8 @@ h1
 
 .modalon{
 	position: absolute;
-	top: 89.781609195402298850574712643678%;
-	left: 14.387755102040816326530612244898%;
+	top: 85.781609195402298850574712643678%;
+	left: 16.387755102040816326530612244898%;
 }
 
 .modaloff{
