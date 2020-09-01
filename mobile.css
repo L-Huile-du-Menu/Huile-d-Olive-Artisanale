@@ -4,7 +4,7 @@ body
 	text-align: center;
 	background-color: #fff;
 	overflow-x: hidden;
-	margin-bottom: 230.15789473684210526315789473684%;
+	margin-bottom: 240.15789473684210526315789473684%;
  }
 
 #banniere
@@ -60,7 +60,7 @@ h1
     box-shadow: 0.052vw 0.052vw 0.624vw black;
     position: absolute;
  	top: 47.080459770114942528735632183908%;
- 	left: 16.469387755102040816326530612245%;
+ 	left: 17.469387755102040816326530612245%;
  }
 
 #design
@@ -246,7 +246,7 @@ h1
 	outline: none;
 	position: absolute;
 	top: 66.666666666666666666666666666667%;
-	left: 19%;
+	left: 14%;
 }
 
 #bouton2:hover{
@@ -335,7 +335,7 @@ h1
 	outline: none;
 	position: absolute;
 	top: 75%;
-	left: 39.5%;
+	left: 38.5%;
 }
 
 #bouton6:hover{
