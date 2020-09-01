@@ -10,7 +10,7 @@ body
 #banniere
  {
  	width: 150%;
- 	box-shadow: 0.052vw 0.052vw 0.624vw black;
+ 	box-shadow: 0.052vw 0.052vw 2vw black;
  	position: absolute;
  	top: 0%;
  	left: -25%;
@@ -29,7 +29,7 @@ body
  	width: 91.836734693877551020408163265306%;
  	height: 0.57471264367816091954022988505747%;
  	background-color: #007000;
- 	box-shadow: 0.052vw 0.052vw 0.624vw black;
+ 	box-shadow: 0.052vw 0.052vw 2vw black;
  	position: absolute;
  	top: 39.862068965517241379310344827586%;
  	left: 4.0816326530612244897959183673469%;
@@ -40,7 +40,7 @@ body
 	height: 103.44827586206896551724137931034%;
 	background-color: #bdc3c7;
 	opacity: 0.75;
-	box-shadow: 0.052vw 0.052vw 0.624vw black;
+	box-shadow: 0.052vw 0.052vw 2vw black;
 	position: absolute;
 	top: 45.459770114942528735632183908046%;
 	left: 4.0816326530612244897959183673469%;
@@ -57,7 +57,7 @@ h1
  	font-size : 4.5vw;
     color: #fff;
     background-color: #007000;
-    box-shadow: 0.052vw 0.052vw 0.624vw black;
+    box-shadow: 0.052vw 0.052vw 2vw black;
     position: absolute;
  	top: 47.080459770114942528735632183908%;
  	left: 16.469387755102040816326530612245%;
@@ -72,7 +72,7 @@ h1
   text-align: center;
   align-content: center;
   border-radius: 1.5vw;
-  box-shadow: 0.052vw 0.052vw 0.624vw black;
+  box-shadow: 0.052vw 0.052vw 2vw black;
   position: absolute;
   top: 104.954022988505747126436781609195%;
   left: 10.204081632653061224489795918367%;
@@ -210,7 +210,7 @@ h1
 	background-color: #007000;
 	border: none;
 	border-radius: 0.5vw;
-	box-shadow: 0.052vw 0.052vw 0.624vw black;
+	box-shadow: 0.052vw 0.052vw 2vw black;
 	outline: none;
 	position: absolute;
 	top: 131.1655172413793103448275862069%;
@@ -224,7 +224,7 @@ h1
 #modal{
 	width: 69.224489795918367346938775510204%;
  	height: 50.126436781609195402298850574713%;
- 	box-shadow: 0.052vw 0.052vw 0.624vw black;
+ 	box-shadow: 0.052vw 0.052vw 2vw black;
 	background-color: #007000;
 }
 
@@ -242,11 +242,11 @@ h1
 	background-color: #007000;
 	border: none;
 	border-radius: 0.5vw;
-	box-shadow: 0.052vw 0.052vw 0.624vw black;
+	box-shadow: 0.052vw 0.052vw 2vw black;
 	outline: none;
 	position: absolute;
 	top: 66.666666666666666666666666666667%;
-	left: 14%;
+	left: 14.5%;
 }
 
 #bouton2:hover{
@@ -261,7 +261,7 @@ h1
 	background-color: #fff;
 	border: none;
 	border-radius: 0.5vw;
-	box-shadow: 0.052vw 0.052vw 0.5vw black;
+	box-shadow: 0.052vw 0.052vw 1.8vw black;
 	outline: none;
 	position: absolute;
 	top: 80%;
@@ -275,14 +275,14 @@ h1
 #modal2{
 	width: 69.224489795918367346938775510204%;
  	height: 50.126436781609195402298850574713%;
- 	box-shadow: 0.052vw 0.052vw 0.624vw black;
+ 	box-shadow: 0.052vw 0.052vw 2vw black;
 	background-color: #007000;
 }
 
 #modal3{
 	width: 69.224489795918367346938775510204%;
  	height: 50.126436781609195402298850574713%;
- 	box-shadow: 0.052vw 0.052vw 0.624vw black;
+ 	box-shadow: 0.052vw 0.052vw 2vw black;
 	background-color: #007000;
 }
 
@@ -294,11 +294,11 @@ h1
 	background-color: #007000;
 	border: none;
 	border-radius: 0.5vw;
-	box-shadow: 0.052vw 0.052vw 0.624vw black;
+	box-shadow: 0.052vw 0.052vw 2vw black;
 	outline: none;
 	position: absolute;
 	top: 44.444444444444444444444444444444%;
-	left: 26%;
+	left: 26.5%;
 }
 
 #bouton4:hover{
@@ -315,7 +315,7 @@ h1
 	background-color: #007000;
 	border: none;
 	border-radius: 0.5vw;
-	box-shadow: 0.052vw 0.052vw 0.624vw black;
+	box-shadow: 0.052vw 0.052vw 2vw black;
 	outline: none;
 }
 
@@ -331,7 +331,7 @@ h1
 	background-color: #fff;
 	border: none;
 	border-radius: 0.5vw;
-	box-shadow: 0.052vw 0.052vw 0.5vw black;
+	box-shadow: 0.052vw 0.052vw 1.8vw black;
 	outline: none;
 	position: absolute;
 	top: 75%;
@@ -345,7 +345,7 @@ h1
 
 #flou{
 	width: 100%;
-	height: 148.67816091954022988505747126437%;
+	height: 158.67816091954022988505747126437%;
 	background-color: #000;
 	opacity: 0.75;
 }
@@ -364,7 +364,7 @@ h1
 .modalon{
 	position: absolute;
 	top: 85.781609195402298850574712643678%;
-	left: 15.387755102040816326530612244898%;
+	left: 15%;
 }
 
 .modaloff{
