@@ -246,7 +246,7 @@ h1
 	outline: none;
 	position: absolute;
 	top: 66.666666666666666666666666666667%;
-	left: 14.5%;
+	left: 15%;
 }
 
 #bouton2:hover{
@@ -345,7 +345,7 @@ h1
 
 #flou{
 	width: 100%;
-	height: 158.67816091954022988505747126437%;
+	height: 154.67816091954022988505747126437%;
 	background-color: #000;
 	opacity: 0.75;
 }
@@ -363,7 +363,7 @@ h1
 
 .modalon{
 	position: absolute;
-	top: 85.781609195402298850574712643678%;
+	top: 95.781609195402298850574712643678%;
 	left: 15%;
 }
 

@@ -158,8 +158,8 @@ function closeModal2() {
 	document.getElementById("modal").classList.remove("modaloff");
 	document.getElementById("modal2").classList.add("modaloff");
 	document.getElementById("modal2").classList.remove("modalon");
-	document.getElementById("flou").classList.add("flouoff");
-	document.getElementById("flou").classList.remove("flouon");
+	document.getElementById("flou").classList.add("flouon");
+	document.getElementById("flou").classList.remove("flouoff");
 }
 
 function openModal3() {
