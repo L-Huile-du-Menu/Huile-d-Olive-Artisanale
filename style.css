@@ -333,6 +333,339 @@
 				}
 }
 
+@media  screen and (orientation: portrait) and (min-width: 768px){
+	body{
+		margin: 0;
+		padding: 0;
+		user-select: none;
+		overflow-x: hidden;
+		scroll-behavior: smooth;
+	}
+
+	.background{
+		height: 100%
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	video {
+	  position: fixed;
+	  right: 0;
+	  bottom: 0;
+	  min-width: 100%;
+	  min-height: 100%;
+	}
+
+		.goldbutton{
+			padding: 16px 25px;
+			font-size: 35px;
+			font-family: sans-serif;
+			color: #f5f5f5;
+			background: linear-gradient(45deg,#8f5d00,#ffc65c);
+			border: none;
+			border-radius: 4px;
+			outline: none;
+			transition: filter 0.2s;
+		}
+
+		.goldbutton:hover{
+			cursor: pointer;
+			filter: brightness(1.2);
+		}
+
+		img{
+			max-width: 100%;
+		}
+
+	main{
+		width: 100%;
+		background-color: #121212;
+		position: absolute;
+		top: 70%;
+	}
+
+	.section1{
+		height: auto;
+		width: 100%;
+		padding: 20px 0;
+		display: flex;
+		flex-direction: column;
+		/* background-color: orange; */
+		position: relative;
+	}
+
+		.section1 img{
+			margin: auto;
+			padding: 0 50px;
+			min-width: 200px;
+			max-width: 600px;
+			width: 60vw;
+		}
+
+		.section1 h1{
+			margin: auto;
+			min-width: 190px;
+			max-width: 758px;
+			width: 70vw;
+			font-size: 30px;
+			font-family: sans-serif;
+			color: #c1c1c1;
+		}
+
+	.section2{
+		padding: 40px 0;
+		height: auto;
+		width: 100%;
+		/* background-color: blue; */
+		position: relative;
+		top: 0;
+	}
+
+		.section2 h2{
+			margin: 0;
+			padding: 20px 10vw;
+			text-align: left;
+			font-size: 40px;
+			font-family: sans-serif;
+			color: #c1c1c1;
+			position: relative;
+		}
+
+		.section2 .c_table{
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			 /*background-color: purple;*/
+			position: relative;
+		}
+
+			.section2 caption{
+				margin-bottom: 25px;
+				font-size: 40px;
+				font-family: "calibri", sans-serif;
+				color: #c1c1c1;
+			}
+
+			.section2 table{
+				margin: 30px 0;
+				min-width: 758px;
+				max-width: 1000px;
+				width: auto;
+				border-collapse: collapse;
+				font-size: 28px;
+				font-family: "calibri", sans-serif;
+				color: #c1c1c1;
+				border: 2px solid #ffc65c;
+				z-index: 10;
+			}
+
+			.section2 thead tr{
+				text-align: center;
+				font-size: 35px;
+				color: #ffc65c;
+				background-color: #121212;
+
+			}
+
+			thead td{
+				transition: background 0.2s,color 0.2s;
+			}
+
+			thead td:hover{
+				cursor: pointer;
+			}
+
+				.b1{
+					color: #121212;
+					background-color: #ffc65c;
+				}
+
+			.section2 .t_in{
+				font-size: 30px;
+				background-color: #363636;
+			}
+
+			.section2 td{
+				padding: 25px 30px;
+			}
+
+			.section2 tbody tr{
+				background-color: #242424;
+			}
+
+				.avantage2{
+					color: #484848;
+				}
+				.avantage3{
+					color: #484848;
+				}
+				.avantage4{
+					color: #484848;
+				}
+
+			.section2 tfoot tr{
+				text-align: center;
+				font-size: 40px;
+				color: #121212;
+				background-color: #ffc65c;
+			}
+
+			.olivier{
+				display: none;
+			}
+
+			.section2 button{
+				margin: 40px 0 200px 0;
+			}
+
+	.section3{
+		height: 100vh;
+		width: 100%;
+		background-image: url(img/fond2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom;
+		position: relative;
+	}
+
+	.section4{
+		min-height: 100vh;
+		width: 100%;
+		/* background-color: green; */
+		position: relative;
+	}
+
+		.section4 h2{
+			margin: 0;
+			padding: 20px 0;
+			text-align: center;
+			font-size: 40px;
+			font-family: sans-serif;
+			color: #c1c1c1;
+			position: relative;
+		}
+
+		.section4 > div{
+			margin: 60px 0;
+			min-height: 80vh;
+			width: 100%;
+			padding: 30px 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* background-color: pink; */
+			position: relative;
+		}
+
+			#slider{
+				margin: auto;
+				width: 90vw;
+				aspect-ratio: 16/9;
+				border-radius: 10px;
+				overflow: hidden;
+				position: relative;
+			}
+
+				#slider_c_1{
+					width: 100%;
+					transition: left 2s;
+					position: relative;
+					left: 0%;
+				}
+
+					#slider_c_1 > img{
+						position: absolute;
+					}
+
+				#slider_c_2{
+					width: 100%;
+					transition: left 2s;
+					position: relative;
+					left: 100%;
+				}
+
+					#slider_c_2 > img{
+						position: absolute;
+					}
+
+				#c_circle{
+					height: 15%;
+					width: 100%;
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+					justify-content: center;
+					position: absolute;
+					top: 85%;
+				}
+
+					#circle1{
+						height: 15px;
+						width: 15px;
+						margin-right: 7.5px;
+						background-color: #121212	;
+						border: 2px solid #121212	;
+						border-radius: 15px;
+						transition: background 2s;
+					}
+
+					#circle2{
+						height: 15px;
+						width: 15px;
+						margin-left: 7.5px;
+						border: 2px solid #121212	;
+						border-radius: 15px;
+						transition: background 2s;
+					}
+
+			.section4 .c_table{
+				min-width: 300px;
+				width: 35vw;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				/*background-color: yellow;*/
+			}
+
+				.section4 table{
+					margin: 40px 0;
+					height: 400px;
+					min-width: 400px;
+					max-width: 500px;
+					width: 50vw	;
+					border-collapse: collapse;
+					font-size: 30px;
+					font-family: "calibri", sans-serif;
+					color: #c1c1c1;
+					border: 2px solid #ffc65c;
+				}
+
+				.section4 th, td{
+					padding: 25px 30px;
+				}
+
+				.section4 tbody tr{
+					text-align: center;
+					background-color: #242424;
+				}
+
+				.section4 tfoot tr{
+					text-align: center;
+					font-size: 35px;
+					color: #121212;
+					background-color: #ffc65c;
+				}
+
+				.section4 .c_table > button{
+					margin: 0;
+				}
+}
+
 @media  screen and (min-width: 200px) and (max-width: 768px){
 	body{
 		margin: 0;
@@ -551,7 +884,7 @@
 
 		.section4 > div{
 			margin: 50px 0;
-			height: auto;
+			min-height: 80vh;
 			width: 100%;
 			padding: 20px 0;
 			display: flex;
