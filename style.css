@@ -581,7 +581,7 @@
 
 			#slider{
 				margin: auto;
-				width: 90vw;
+				width: 95vw;
 				aspect-ratio: 16/9;
 				border-radius: 10px;
 				overflow: hidden;
@@ -611,32 +611,32 @@
 					}
 
 				#c_circle{
-					height: 15%;
+					height: 20%;
 					width: 100%;
 					display: flex;
 					flex-direction: row;
 					align-items: center;
 					justify-content: center;
 					position: absolute;
-					top: 85%;
+					top: 80%;
 				}
 
 					#circle1{
-						height: 15px;
-						width: 15px;
-						margin-right: 7.5px;
+						height: 30px;
+						width: 30px;
+						margin-right: 15px;
 						background-color: #121212	;
-						border: 2px solid #121212	;
-						border-radius: 15px;
+						border: 5px solid #121212	;
+						border-radius: 30px;
 						transition: background 2s;
 					}
 
 					#circle2{
-						height: 15px;
-						width: 15px;
-						margin-left: 7.5px;
-						border: 2px solid #121212	;
-						border-radius: 15px;
+						height: 30px;
+						width: 30px;
+						margin-left: 15px;
+						border: 5px solid #121212	;
+						border-radius: 30px;
 						transition: background 2s;
 					}
 

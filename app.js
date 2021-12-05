@@ -35,7 +35,7 @@ function sagesse(){
 	document.querySelector(".avantage3").style.color = "#484848";
 	document.querySelector(".avantage4").style.color = "#484848";
 
-	document.querySelector(".prix_forfait").innerHTML = "50€";
+	document.querySelector(".prix_forfait").innerHTML = "50€/an";
 }
 
 function force(){
@@ -51,7 +51,7 @@ function force(){
 	document.querySelector(".avantage3").style.color = "#c1c1c1";
 	document.querySelector(".avantage4").style.color = "#484848";
 
-	document.querySelector(".prix_forfait").innerHTML = "80€";
+	document.querySelector(".prix_forfait").innerHTML = "80€/an";
 }
 
 function victoire(){
@@ -67,5 +67,5 @@ function victoire(){
 	document.querySelector(".avantage3").style.color = "#c1c1c1";
 	document.querySelector(".avantage4").style.color = "#c1c1c1";
 
-	document.querySelector(".prix_forfait").innerHTML = "120€";
+	document.querySelector(".prix_forfait").innerHTML = "120€/an";
 }
