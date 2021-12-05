@@ -97,8 +97,7 @@
 		}
 
 		p{
-			margin: 0;
-			padding: 50px 0;
+			margin: 50px 10px;
 			text-align: center;
 			font-size: 20px;
 			font-family: "lucida calligraphy",monospace;
@@ -444,8 +443,7 @@
 		}
 
 		p{
-			margin: 0;
-			padding: 70px 0;
+			margin: 70px 10px;
 			text-align: center;
 			font-size: 30px;
 			font-family: "lucida calligraphy",monospace;
@@ -787,8 +785,7 @@
 		}
 
 		p{
-			margin: 0;
-			padding: 50px 0;
+			margin: 50px 10px;
 			text-align: center;
 			font-size: 20px;
 			font-family: "lucida calligraphy",monospace;
