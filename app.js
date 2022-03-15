@@ -1,27 +1,3 @@
-var slide = 1;
-var duree = 4000;
-
-if(slide == 1){
-	setTimeout(toSlide2, duree);
-}
-
-function toSlide1(){
-	document.getElementById("slider_c_1").style.left = "0%";
-	document.getElementById("slider_c_2").style.left = "100%";
-	document.getElementById("circle1").style.backgroundColor = "#121212";
-	document.getElementById("circle2").style.backgroundColor = "unset";
-	setTimeout(toSlide2, duree);
-}
-
-function toSlide2(){
-	document.getElementById("slider_c_1").style.left = "-100%";
-	document.getElementById("slider_c_2").style.left = "0%";
-	document.getElementById("circle1").style.backgroundColor = "unset";
-	document.getElementById("circle2").style.backgroundColor = "#121212";
-	setTimeout(toSlide1, duree);
-}
-
-
 function sagesse(){
 	document.querySelector(".b1").style.backgroundColor = "#ffc65c";
 	document.querySelector(".b2").style.backgroundColor = "#121212";
@@ -69,3 +45,6 @@ function victoire(){
 
 	document.querySelector(".prix_forfait").innerHTML = "120€/an";
 }
+
+var splide = new Splide( '.splide' );
+splide.mount();

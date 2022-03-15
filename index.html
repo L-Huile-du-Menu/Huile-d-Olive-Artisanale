@@ -5,6 +5,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>L'Huile du Menu</title>
+		<link rel="stylesheet" href="splide.min.css">
 		<link rel="stylesheet" href="style.css">
 		<link rel="icon" type="image/png" href="img/logo.png">
 	</head>
@@ -97,7 +98,11 @@
 						</tfoot>
 					</table>
 
-					<a href="mailto:huiledumenu@gmail.com?Subject=Demande d'inscription forfaitaire&amp;body=Bonjour,%0A%0AJ'aimerais (m'inscrire/inscrire ...) au forfait (...) pour (...) année(s)%0A%0AMerci"><button class="goldbutton" >Contacter</button></a>
+					<a href="mailto:huiledumenu@gmail.com?Subject=Demande d'inscription forfaitaire&amp;
+					body=Bonjour,%0A%0ACOORDONNEES DE PAIEMENT%0ANom : […]%0APrénom : […]
+					%0AForfait : [Sagesse/Force/Victoire]%0ADurée « abonnement » : […]%0AMode de paiement : [PayPal/Chèque/espèce]
+					%0A*un paiement par espèce nécessite une rencontre sur place*%0A%0ACOORDONNEES DU TITULAIRE
+					%0ANom : […]%0APrénom : […]%0AMail : […]%0A%0A[Informez/N’informez pas] le titulaire de son inscription.%0A%0AMerci"><button class="btn" >Contacter</button></a>
 
 					<img class="olivier" id="olivier" src="img/olivier.png">
 				</div>
@@ -110,17 +115,12 @@
 				<h2>Achetez une bouteille d'huile !</h2>
 
 				<div>
-					<div id="slider">
-						<div id="slider_c_1">
-							<img src="img/2.jpg">
-						</div>
-
-						<div id="slider_c_2">
-							<img src="img/3.jpg">
-						</div>
-						<div id="c_circle">
-							<div id="circle1" onclick="goSlide1()" ></div>
-							<div id="circle2" onclick="goSlide2()" ></div>
+					<div class="splide">
+						<div class="splide__track">
+							  <ul class="splide__list">
+								  <li class="splide__slide"><img src="img/2.jpg"></li>
+								  <li class="splide__slide"><img src="img/3.jpg"></li>
+							  </ul>
 						</div>
 					</div>
 
@@ -139,14 +139,18 @@
 							</tfoot>
 						</table>
 
-						<a href="mailto:huiledumenu@gmail.com?Subject=Demande d'achat d'huile d'olive&amp;body=Bonjour,%0A%0AJ'aimerais acheter (...) bouteille(s) de 500mL d'huile d'olive%0A%0AMerci"><button class="goldbutton" >Contacter</button></a>
+						<div>
+							<a href="mailto:huiledumenu@gmail.com?Subject=Demande d'achat d'huile d'olive&amp;body=Bonjour,%0A%0AJ'aimerais acheter (...) bouteille(s) de 500mL d'huile d'olive%0A%0AMerci"><button class="btn" >Contacter</button></a>
+						</div>
 					</div>
 				</div>
 
 			</section>
 		</main>
 
-		<script src="app.js"></script>
+		<script type="text/javascript" src="splide.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		
 
 	</body>
 
