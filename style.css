@@ -216,7 +216,7 @@
 				z-index: 9;
 			}
 
-			.section2 button{
+			.section2 a{
 				margin: 30px 0 200px 0;
 			}
 
@@ -528,12 +528,12 @@
 				display: none;
 			}
 
-			.section2 button{
+			.section2 a{
 				margin: 40px 0 200px 0;
 			}
 
 	.section3{
-		height: 80vh;
+		height: 60vh;
 		width: 100%;
 		background-image: url(img/fond2.jpg);
 		background-repeat: no-repeat;
@@ -835,12 +835,12 @@
 				display: none;
 			}
 
-			.section2 button{
+			.section2 a{
 				margin: 30px 0 200px 0;
 			}
 
 	.section3{
-		height: 80vh;
+		height: 60vh;
 		width: 100%;
 		background-image: url(img/fond2.jpg);
 		background-repeat: no-repeat;
